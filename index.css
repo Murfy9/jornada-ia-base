@@ -13,12 +13,12 @@
 }
 
 .cabecalho__logo--icone {
-  max-width: 260px;
+  max-width: 380px;
 }
 
 .cabecalho__navegacao {
   display: flex;
-  gap: 40px;
+  gap: 8px;
 }
 
 .cabecalho__navegacao--lista {
@@ -40,6 +40,8 @@
 }
 
 .banner__img {
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
 }
 
@@ -149,6 +151,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0;
 }
 
 .ofertas__card--preco {
