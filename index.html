@@ -151,83 +151,87 @@
         </div>
       </section>
 
-      <div class="busca">
-        <div class="busca__titulo">
-          <div class="divusca__titulo--texto">Busque por Categoria</div>
-          <div class="busca__titulo--sublinhado"></div>
-        </div>
-        <div class="busca__categorias">
-          <div class="busca__categoria">
-            <div class="busca__categoria--icone">
-              <span class="material-symbols-outlined"> hiking </span>
-            </div>
-            <b class="busca__categoria--nome">Pacotes Nacionais</b>
-          </div>
-          <div class="busca__categoria">
-            <div class="busca__categoria--icone">
-              <span class="material-symbols-outlined"> flight </span>
-            </div>
-            <b class="busca__categoria--nome">Pacotes Internacionais</b>
-          </div>
-          <div class="busca__categoria">
-            <div class="busca__categoria--icone">
-              <span class="material-symbols-outlined"> airport_shuttle </span>
-            </div>
-            <b class="busca__categoria--nome">Transfer</b>
-          </div>
-          <div class="busca__categoria">
-            <div class="busca__categoria--icone">
-              <span class="material-symbols-outlined"> vpn_lock </span>
-            </div>
-            <b class="busca__categoria--nome">Seguro Viagem</b>
-          </div>
-        </div>
-      </div>
+      <aside class="busca">
+        <section class="busca__secao">
+          <header class="busca__titulo">
+            <h2 class="busca__titulo--texto">Busque por Categoria</h2>
+            <div class="busca__titulo--sublinhado"></div>
+          </header>
+          <nav class="busca__categorias">
+            <article class="busca__categoria" tabindex="0">
+              <div class="busca__categoria--icone" aria-hidden="true">
+                <span class="material-symbols-outlined"> hiking </span>
+              </div>
+              <strong class="busca__categoria--nome">Pacotes Nacionais</strong>
+            </article>
+            <article class="busca__categoria" tabindex="0">
+              <div class="busca__categoria--icone" aria-hidden="true">
+                <span class="material-symbols-outlined"> flight </span>
+              </div>
+              <strong class="busca__categoria--nome"
+                >Pacotes Internacionais</strong
+              >
+            </article>
+            <article class="busca__categoria" tabindex="0">
+              <div class="busca__categoria--icone" aria-hidden="true">
+                <span class="material-symbols-outlined"> airport_shuttle </span>
+              </div>
+              <strong class="busca__categoria--nome">Transfer</strong>
+            </article>
+            <article class="busca__categoria" tabindex="0">
+              <div class="busca__categoria--icone" aria-hidden="true">
+                <span class="material-symbols-outlined"> vpn_lock </span>
+              </div>
+              <strong class="busca__categoria--nome">Seguro Viagem</strong>
+            </article>
+          </nav>
+        </section>
+      </aside>
 
-      <div class="destinos">
-        <div class="destinos__titulo">
-          <div class="destinos__titulo--texto">Destinos Populares</div>
+      <section class="destinos">
+        <header class="destinos__titulo">
+          <h2 class="destinos__titulo-texto">Destinos Populares</h2>
           <div class="destinos__titulo--sublinhado"></div>
-        </div>
-        <div class="destinos__lista">
-          <div class="destinos__item">
+        </header>
+        <ul class="destinos__lista">
+          <li class="destinos__item">
             <img
               class="destinos__item--image"
-              alt=""
+              alt="Imagem de Tokyo"
               src="./img/tokyo@2x.png"
             />
-            <b class="destinos__item--nome">Tokyo</b>
-            <div class="destinos__item--descricao">
+            <strong class="destinos__item--nome">Tokyo</strong>
+            <p class="destinos__item--descricao">
               Tóquio é uma cidade vibrante e cosmopolita, com seus templos
               históricos, museus de arte moderna e arranha-céus icônicos. Não
               perca a chance de mergulhar em sua atmosfera fascinante.
-            </div>
+            </p>
             <div class="destinos__item--botao-container">
               <div class="destinos__item--botao">
                 <span class="destinos__item--botao-texto">Ver detalhes</span>
               </div>
             </div>
-          </div>
-          <div class="destinos__item">
+          </li>
+          <li class="destinos__item">
             <img
               class="destinos__item--image"
-              alt=""
+              alt="Imagem de Osaka"
               src="./img/osaka@2x.png"
             />
-            <b class="destinos__item--nome">Osaka</b>
-            <div class="destinos__item--descricao">
-              Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
+            <strong class="destinos__item--nome">Osaka</strong>
+            <p class="destinos__item--descricao">
+              Osaka é uma cidade agitada e moderna no Japão. A cidade é famosa
               por sua gastronomia deliciosa e por ser um excelente ponto de
               partida para explorar outras cidades japonesas próximas.
-            </div>
+            </p>
             <div class="destinos__item--botao-container">
               <div class="destinos__item--botao">
                 <span class="destinos__item--botao-texto">Ver detalhes</span>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </li>
+        </ul>
+      </section>
 
       <div class="pagamento">
         <div class="pagamento__titulo">
