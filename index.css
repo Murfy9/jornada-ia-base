@@ -91,10 +91,6 @@
   margin-top: 16px;
 }
 
-img {
-  max-width: 100%;
-}
-
 .ofertas__cards--grupo {
   display: flex;
   gap: 24px;
@@ -276,11 +272,11 @@ span.material-symbols-outlined {
   max-width: 100%;
 }
 
-.pagamento__imagens--imagem-container {
+.pagamento__imagens--container {
   flex: 1;
 }
 
-.pagamento__imagens--imagem-destaque {
+.pagamento__imagens--destaque {
   margin-top: 20px;
 }
 
@@ -333,6 +329,12 @@ span.material-symbols-outlined {
   margin-bottom: 8px;
 }
 
+.pre-footer__image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
 .footer__container {
   background: var(--preto);
   width: 100%;
@@ -378,5 +380,14 @@ span.material-symbols-outlined {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+}
+.footer__lista {
+  display: flex;
+}
+
+.footer__lista--item {
+  list-style: none;
+  padding-right: 14px;
+  margin-top: 10px;
 }
